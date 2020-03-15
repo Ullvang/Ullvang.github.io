@@ -5,19 +5,22 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 1.4em;
-  background-color: #6dd8e6;
+  background-color: #4682b4;
 }
 
 .hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("hytta.jpg");
-  background-color: #cccccc;
   height: 100vh;
   background-position: 42% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   background-attachment: fixed;
+}
+
+.container {
+  height: 100vh;
 }
 
 .hero-text {
@@ -35,10 +38,6 @@ h1 {
 
 nav {
   width: 100vw;
-  position: fixed;
-  left: 50%;
-  top: 0%;
-  transform: translate(-50%, 50%);
   text-align: center;
 }
 
@@ -49,7 +48,7 @@ ul {
 }
 
 li {
-  display: inline;
+  display: inline-block;
   color: white;
   padding: 20px;
   vertical-align: middle;
@@ -70,31 +69,15 @@ a:hover {
 .hero-text2 {
   text-align: center;
   position: relative;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
 }
 
-.slide {
-  height: 100vh;
-}
-
-.slide2 {
-  height: 100vh;
-}
-
-/* #praktiskinfo {
-}
-#gaveliste {
-}
-#overnatting {
-} */
-
 h2 {
   text-transform: uppercase;
   color: white;
-  margin: 0px;
 }
 
 .link {
@@ -103,4 +86,25 @@ h2 {
 
 p {
   margin: 0 20px;
+}
+
+.navbar.collapsed {
+  display: block;
+}
+
+.hamburger {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+#navToggle {
+  display: none;
+  padding: 15px 0 15px 15px;
+}
+
+.navbar-toggle {
+  border-bottom: 1px solid white;
+  background-color: #266294;
 }
