@@ -11,18 +11,18 @@
 }
 
 @media only screen and (max-width: 600px) {
-  nav {
-    display: none;
+  .slide2 {
+    height: 240vh;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  /* body {
+/* @media only screen and (max-width: 600px) { */
+/* body {
     font-size: 1.3em;
   }
   a {
     font-size: 1em;
   } */
-}
+/* } */
 
 /* li elements break at about 700px */
