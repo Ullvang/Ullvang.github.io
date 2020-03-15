@@ -1,12 +1,21 @@
+@media only screen and (max-width: 1300px) {
+  .container {
+    height: 130vh;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   #mainNav {
     position: absolute;
     z-index: 99;
     background-color: #266294;
   }
-}
 
-@media only screen and (max-width: 600px) {
+  .hero-text {
+    top: 68%;
+    font-size: 0.8em;
+  }
+
   .hero-text2 {
     text-align: center;
     position: relative;
